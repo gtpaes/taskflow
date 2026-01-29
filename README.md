@@ -46,4 +46,4 @@ O design foi planejado previamente, simulando um protótipo no Figma, antes da i
 
 ## ▶️ Deploy
 
-[Link]](https://gtpaes.github.io/taskflow/)
+(https://gtpaes.github.io/taskflow/)
