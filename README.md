@@ -44,8 +44,6 @@ O design foi planejado previamente, simulando um protótipo no Figma, antes da i
 
 ---
 
-## ▶️ Como executar o projeto
+## ▶️ Deploy
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/taskflow.git
+[Link]](https://gtpaes.github.io/taskflow/)

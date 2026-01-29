@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskFlow</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow</title>
 
-    
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+
+  <main class="container">
+    <section class="card">
+
+      <header class="card-header">
+        <h1>TaskFlow</h1>
+        <p>Organize suas tarefas diárias</p>
+      </header>
+
+      <div class="task-input">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Digite uma tarefa..."
+          aria-label="Nova tarefa"
+        />
+        <button id="addTaskBtn" type="button">+</button>
+      </div>
+
+      <ul class="task-list" id="taskList"></ul>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
